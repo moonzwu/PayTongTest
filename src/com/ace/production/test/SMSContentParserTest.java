@@ -7,10 +7,12 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import android.test.AndroidTestCase;
+
 import com.ace.production.text.SMSContent;
 import com.ace.production.text.SMSContentParser;
 
-public class SMSContentParserTest {
+public class SMSContentParserTest extends AndroidTestCase {
 
 	@Before
 	public void setUp() throws Exception {
